@@ -1,0 +1,126 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr {
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    margin: 15px;
+}
+
+h1, .fake-heading-1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 69px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+h2, .fake-heading-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h3, .fake-heading-3 {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 23px;
+    margin: 5px;
+}
+
+li, p, .fake-paragraph{
+    font-family: 'Martian Mono', monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 5px;
+}
+
+td {
+    padding: 5px 40px;
+    font-family: 'Martian Mono', monospace;
+}
+
+thead {
+    background-color: lightgrey;
+}
+
+.color-block {
+    margin: 5px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.dark-blue {
+    background-color: #17458f;
+}
+
+.gold {
+    background-color: #f7a81b;
+}
+
+.blue {
+    background-color: #17458f;
+}
+
+.light-blue {
+    background-color: #00a2e0;
+}
+
+.pink {
+    background-color: #d41367;
+}
+
+.red {
+    background-color: #e02927;
+}
+
+.hex {
+    text-transform: uppercase;
+}
+
+.garamond {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.martian {
+    font-family: 'Martian Mono', monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.font, .style{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    min-height: 200px;
+    border: 1px dotted grey;
+    border-radius: 10px;
+}
+
+section {
+    clear: left;
+}
